@@ -1,0 +1,187 @@
+# Created at 2019-05-31T02:02:48.834
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2019-05-31T02:02:50.138
+Unexpected IOException with stream: Selenium Easy - Best Demo website to practice Selenium Webdriver Online
+
+
+# Created at 2019-05-31T02:02:59.160
+Unexpected IOException with stream: 
+
+
+# Created at 2019-05-31T02:02:59.168
+Unexpected IOException with stream:   @Smoke @Regression
+
+
+# Created at 2019-05-31T02:02:59.180
+Unexpected IOException with stream:   Scenario: select dropdown list automation     # dropdownlist.feature:3
+
+
+# Created at 2019-05-31T02:02:59.192
+Unexpected IOException with stream:     Given User is in selenium easy homepage     # InputForm.user_is_in_selenium_easy_homepage()
+
+
+# Created at 2019-05-31T02:02:59.200
+Unexpected IOException with stream:     When Title of the pageis selenium easy      # InputForm.title_of_the_pageis_selenium_easy()
+
+
+# Created at 2019-05-31T02:02:59.212
+Unexpected IOException with stream:     Then click on demo website                  # InputForm.click_on_demo_website()
+
+
+# Created at 2019-05-31T02:02:59.220
+Unexpected IOException with stream:     Then Title of the page is best demo website # InputForm.title_of_the_page_is_best_demo_website()
+
+
+# Created at 2019-05-31T02:02:59.228
+Unexpected IOException with stream:     Then click on input forms                   # InputForm.click_on_input_forms()
+
+
+# Created at 2019-05-31T02:02:59.272
+Unexpected IOException with stream:     Then click on select dropdown list          # SelectDropDown.click_on_select_dropdown_list()
+
+
+# Created at 2019-05-31T02:02:59.280
+Unexpected IOException with stream:     Then user selects single and multi select   # SelectDropDown.user_selects_single_and_multi_select()
+
+
+# Created at 2019-05-31T02:02:59.292
+Unexpected IOException with stream:       org.openqa.selenium.UnsupportedCommandException: sendKeysToActiveElement
+      Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+      System info: host: 'WIN-SB3ER6JQ6ME', ip: '10.100.44.218', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_91'
+      Driver info: driver.version: RemoteWebDriver
+      Command duration or timeout: 0 milliseconds
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+      	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+      	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+      	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+      	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+      	at org.openqa.selenium.remote.RemoteKeyboard.pressKey(RemoteKeyboard.java:46)
+      	at org.openqa.selenium.interactions.KeyDownAction.perform(KeyDownAction.java:47)
+      	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
+      	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
+      	at stepDefinitions.SelectDropDown.user_selects_single_and_multi_select(SelectDropDown.java:31)
+      	at ?.Then user selects single and multi select(dropdownlist.feature:11)
+      Caused by: org.openqa.selenium.UnsupportedCommandException: sendKeysToActiveElement
+      Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+      System info: host: 'WIN-SB3ER6JQ6ME', ip: '10.100.44.218', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_91'
+      Driver info: driver.version: RemoteWebDriver
+      Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+      System info: host: 'DESKTOP-98E3OTK', ip: '192.168.0.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+      Driver info: driver.version: RemoteWebDriver
+      	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:220)
+      	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:118)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+      	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+      	at org.openqa.selenium.remote.RemoteKeyboard.sendKeys(RemoteKeyboard.java:35)
+      	at org.openqa.selenium.support.events.internal.EventFiringKeyboard.sendKeys(EventFiringKeyboard.java:42)
+      	at org.openqa.selenium.remote.server.handler.interactions.SendKeyToActiveElement.call(SendKeyToActiveElement.java:56)
+      	at org.openqa.selenium.remote.server.handler.interactions.SendKeyToActiveElement.call(SendKeyToActiveElement.java:31)
+      	at java.util.concurrent.FutureTask.run(Unknown Source)
+      	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+      	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+      	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+      	at java.lang.Thread.run(Unknown Source)
+
+
+
+# Created at 2019-05-31T02:02:59.308
+Unexpected IOException with stream:     Then close the browser                      # InputForm.close_the_browser()
+
+
+# Created at 2019-05-31T02:02:59.328
+Unexpected IOException: 8,1,runner.TestRunner2,feature(runner.TestRunner2),null,org.openqa.selenium.UnsupportedCommandException: sendKeysToActiveElement\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'WIN-SB3ER6JQ6ME'\002C ip: '10.100.44.218'\002C os.name: 'Windows 10'\002C os.arch: 'x86'\002C os.version: '10.0'\002C java.version: '1.8.0_91'\000ADriver info: driver.version: RemoteWebDriver\000ACommand duration or timeout: 0 milliseconds,null,org.openqa.selenium.UnsupportedCommandException: sendKeysToActiveElement\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'WIN-SB3ER6JQ6ME'\002C ip: '10.100.44.218'\002C os.name: 'Windows 10'\002C os.arch: 'x86'\002C os.version: '10.0'\002C java.version: '1.8.0_91'\000ADriver info: driver.version: RemoteWebDriver\000ACommand duration or timeout: 0 milliseconds,TestRunner2>AbstractTestNGCucumberTests.feature:21 \00BB Cucumber org.openqa.selen...,cucumber.runtime.CucumberException: \000Aorg.openqa.selenium.UnsupportedCommandException: sendKeysToActiveElement\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'WIN-SB3ER6JQ6ME'\002C ip: '10.100.44.218'\002C os.name: 'Windows 10'\002C os.arch: 'x86'\002C os.version: '10.0'\002C java.version: '1.8.0_91'\000ADriver info: driver.version: RemoteWebDriver\000ACommand duration or timeout: 0 milliseconds\000ACaused by: org.openqa.selenium.UnsupportedCommandException: \000AsendKeysToActiveElement\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'WIN-SB3ER6JQ6ME'\002C ip: '10.100.44.218'\002C os.name: 'Windows 10'\002C os.arch: 'x86'\002C os.version: '10.0'\002C java.version: '1.8.0_91'\000ADriver info: driver.version: RemoteWebDriver\000ACommand duration or timeout: 0 milliseconds\000ACaused by: org.openqa.selenium.UnsupportedCommandException: \000AsendKeysToActiveElement\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'WIN-SB3ER6JQ6ME'\002C ip: '10.100.44.218'\002C os.name: 'Windows 10'\002C os.arch: 'x86'\002C os.version: '10.0'\002C java.version: '1.8.0_91'\000ADriver info: driver.version: RemoteWebDriver\000ABuild info: version: '3.5.3'\002C revision: 'a88d25fe6b'\002C time: '2017-08-29T12:42:44.417Z'\000ASystem info: host: 'DESKTOP-98E3OTK'\002C ip: '192.168.0.129'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.1'\000ADriver info: driver.version: RemoteWebDriver\000A
+
+
+# Created at 2019-05-31T02:02:59.340
+Unexpected IOException: 5,1,runner.TestRunner2,feature(runner.TestRunner2),cucumber,null,null
+
+
+# Created at 2019-05-31T02:02:59.356
+Unexpected IOException with stream: Feature: input form demo automation
+
+
+# Created at 2019-05-31T02:03:11.410
+Unexpected IOException with stream: May 31, 2019 2:03:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created at 2019-05-31T02:03:16.175
+Unexpected IOException with stream: Learn Selenium with Best Practices and Examples | Selenium Easy
+
+
+# Created at 2019-05-31T02:03:19.767
+Unexpected IOException with stream: Selenium Easy - Best Demo website to practice Selenium Webdriver Online
+
+
+# Created at 2019-05-31T02:03:39.058
+Unexpected IOException with stream: 
+
+
+# Created at 2019-05-31T02:03:39.078
+Unexpected IOException with stream:   @Smoke @Regression
+
+
+# Created at 2019-05-31T02:03:39.098
+Unexpected IOException with stream:   Scenario: input form data automation          # form.feature:3
+
+
+# Created at 2019-05-31T02:03:39.118
+Unexpected IOException with stream:     Given User is in selenium easy homepage     # InputForm.user_is_in_selenium_easy_homepage()
+
+
+# Created at 2019-05-31T02:03:39.138
+Unexpected IOException with stream:     When Title of the pageis selenium easy      # InputForm.title_of_the_pageis_selenium_easy()
+
+
+# Created at 2019-05-31T02:03:39.158
+Unexpected IOException with stream:     Then click on demo website                  # InputForm.click_on_demo_website()
+
+
+# Created at 2019-05-31T02:03:39.174
+Unexpected IOException with stream:     Then Title of the page is best demo website # InputForm.title_of_the_page_is_best_demo_website()
+
+
+# Created at 2019-05-31T02:03:39.194
+Unexpected IOException with stream:     Then click on input forms                   # InputForm.click_on_input_forms()
+
+
+# Created at 2019-05-31T02:03:39.210
+Unexpected IOException with stream:     Then click on input form submit             # InputForm.click_on_input_form_submit()
+
+
+# Created at 2019-05-31T02:03:39.230
+Unexpected IOException with stream:     Then user enters details and click on send  # InputForm.user_enters_details_and_click_on_send()
+
+
+# Created at 2019-05-31T02:03:39.246
+Unexpected IOException with stream:     Then close the browser                      # InputForm.close_the_browser()
+
+
+# Created at 2019-05-31T02:03:39.266
+Unexpected IOException: 6,1,runner.TestRunner2,feature(runner.TestRunner2),null,null,null
+
+
+# Created at 2019-05-31T02:03:39.286
+Unexpected IOException: 5,1,runner.TestRunner2,feature(runner.TestRunner2),cucumber,null,null
+
+
+# Created at 2019-05-31T02:03:39.322
+Unexpected IOException with stream: Feature: radio buttons automation
+
+

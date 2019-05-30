@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="181.670142">
+<testcase classname="radio buttons automation" name="input form data automation" time="33.454976">
+<system-out><![CDATA[Given User is in selenium easy homepage.....................................passed
+When Title of the pageis selenium easy......................................passed
+Then click on demo website..................................................passed
+Then Title of the page is best demo website.................................passed
+Then click on input forms...................................................passed
+Then click on check box demo................................................passed
+Then validate checkboxes....................................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DropDown List" name="select dropdown list automation" time="40.762339">
+<system-out><![CDATA[Given User is in selenium easy homepage.....................................passed
+When Title of the pageis selenium easy......................................passed
+Then click on demo website..................................................passed
+Then Title of the page is best demo website.................................passed
+Then click on input forms...................................................passed
+Then click on select dropdown list..........................................passed
+Then user selects single and multi select...................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="input form demo automation" name="input form data automation" time="43.314462">
+<system-out><![CDATA[Given User is in selenium easy homepage.....................................passed
+When Title of the pageis selenium easy......................................passed
+Then click on demo website..................................................passed
+Then Title of the page is best demo website.................................passed
+Then click on input forms...................................................passed
+Then click on input form submit.............................................passed
+Then user enters details and click on send..................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="radio buttons automation" name="input form data automation" time="31.675414">
+<system-out><![CDATA[Given User is in selenium easy homepage.....................................passed
+When Title of the pageis selenium easy......................................passed
+Then click on demo website..................................................passed
+Then Title of the page is best demo website.................................passed
+Then click on input forms...................................................passed
+Then click on radio buttons demo............................................passed
+Then perform radio button operations........................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="input form demo automation" name="input form data automation" time="32.462951">
+<system-out><![CDATA[Given User is in selenium easy homepage.....................................passed
+When Title of the pageis selenium easy......................................passed
+Then click on demo website..................................................passed
+Then Title of the page is best demo website.................................passed
+Then click on input forms...................................................passed
+Then click on simple form demo..............................................passed
+Then enter the inputs.......................................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
